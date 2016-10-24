@@ -1,3 +1,4 @@
+
 $(function() {
 
   $('.hreview').addClass('col-md-3');
@@ -9,13 +10,13 @@ $(function() {
   $('.hreview2').addClass('col-xs-12');
   $('.review').addClass('text-justify');
 
-  // $(window).onload (function() {
 
     $('img').addClass('img-responsive');
     // var re = document.getElementsByClassName("review");
+  $(document).ready(function() {
     $(".review").masonry({
       itemSelector: '.hreview',
       // columnWidth: 200
     })
-  // })
+  })
 })
