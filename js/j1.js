@@ -9,14 +9,17 @@ $(function() {
   $('.hreview').addClass('col-xs-6');
   $('.hreview2').addClass('col-xs-12');
   $('.review').addClass('text-justify');
+  $('img').addClass('img-responsive');
 
 
-    $('img').addClass('img-responsive');
     // var re = document.getElementsByClassName("review");
-  $(document).ready(function() {
-    $(".review").masonry({
-      itemSelector: '.hreview',
-      // columnWidth: 200
-    })
+
+})
+
+
+$(window).on('load',function() {
+  $(".review").masonry({
+    itemSelector: '.hreview',
+    // columnWidth: 200
   })
 })
