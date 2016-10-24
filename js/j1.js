@@ -8,8 +8,11 @@ $(function() {
   $('.hreview').addClass('col-xs-6');
   $('.hreview2').addClass('col-xs-12');
   $('img').addClass('img-responsive');
+})
+
+window.onload{
   $('.review').masonry({
     itemSelector: '.hreview',
     // columnWidth: 200
   })
-})
+}

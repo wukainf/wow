@@ -13,10 +13,10 @@
 }
 
 .hreview a {
-  text-align: center;
   width: 100%;
+  text-align: center;
   display: block;
-  padding: 5px;
+  margin: auto;
 }
 
 .img-class img {
