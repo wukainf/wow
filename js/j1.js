@@ -1,5 +1,5 @@
 $(function() {
-  $('.review').addClass('text-justify');
+
   $('.hreview').addClass('col-md-3');
   $('.hreview2').removeClass('col-md-3');
   $('.hreview2').addClass('col-md-6')
@@ -7,12 +7,15 @@ $(function() {
   $('.hreview2').addClass('col-sm-8');
   $('.hreview').addClass('col-xs-6');
   $('.hreview2').addClass('col-xs-12');
-  $('img').addClass('img-responsive');
-})
+  $('.review').addClass('text-justify');
 
-window.onload{
-  $('.review').masonry({
-    itemSelector: '.hreview',
-    // columnWidth: 200
-  })
-}
+  // $(window).onload (function() {
+
+    $('img').addClass('img-responsive');
+    // var re = document.getElementsByClassName("review");
+    $(".review").masonry({
+      itemSelector: '.hreview',
+      // columnWidth: 200
+    })
+  // })
+})
