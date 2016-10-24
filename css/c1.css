@@ -12,6 +12,13 @@
   margin: auto;
 }
 
+.hreview a {
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 5px;
+}
+
 .img-class img {
   margin: auto;
   width: 80%;
